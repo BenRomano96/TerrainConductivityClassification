@@ -110,7 +110,7 @@ data = {
 output_dir = 'coordinates'
 os.makedirs(output_dir, exist_ok=True)
 
-filename = 'Coordinates_Example.csv'  # <-- Change as needed
+filename = 'CoordinatesPath.csv'  # <-- Change as needed
 df = pd.DataFrame(data)
 df.to_csv(os.path.join(output_dir, filename), index=False)
 
