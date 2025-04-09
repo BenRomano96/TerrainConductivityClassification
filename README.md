@@ -12,12 +12,18 @@ Trains a CNN model (ResNet50-based) to classify terrain images into:
 **Desert, Forest, Mountain, Plains, Argicultural, Urban**
 
 - **Dataset Source:**  
-  [Durgesh Rao on Kaggle (durgeshrao9993)](https://www.kaggle.com/datasets/durgeshrao9993/different-terrain-types-classification/data)  
+  The images for **Desert**, **Forest**, **Mountain**, and **Plains** were taken from the Kaggle dataset by  
+  [Durgesh Rao (durgeshrao9993)](https://www.kaggle.com/datasets/durgeshrao9993/different-terrain-types-classification/data)  
   **License:** Community Data License Agreement – Sharing – Version 1.0
 
+- **Note:**  
+  The images for **Urban** and **Argicultural** were sourced separately, but the original source is currently unverified.  
+  If identified, proper credit will be added.
+
 - **Knowledge:**  
-  The CNN model implementation was based on techniques and code referenced from a publicly available GitHub repository:  
+  The CNN model implementation was based on techniques and code referenced from a public GitHub repository:  
   [nachi-hebbar/Transfer-Learning-ResNet-Keras](https://github.com/nachi-hebbar/Transfer-Learning-ResNet-Keras)
+
 ---
 
 ### 2. `TerrainPath.py`
