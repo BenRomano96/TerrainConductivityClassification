@@ -17,8 +17,8 @@ Trains a CNN model (ResNet50-based) to classify terrain images into:
   **License:** Community Data License Agreement – Sharing – Version 1.0
 
 - **Note:**  
-  The images for **Urban** and **Argicultural** were sourced separately, but the original source is currently unverified.  
-  If identified, proper credit will be added.
+  Images for *Urban* and *Argicultural* were sourced separately, but the original source is currently unverified.  
+  If you recognize the origin, please contact the author so proper attribution can be added.
 
 - **Knowledge:**  
   The CNN model implementation was based on techniques and code referenced from a public GitHub repository:  
