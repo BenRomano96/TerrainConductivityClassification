@@ -33,13 +33,9 @@ Trains a CNN model (ResNet50-based) to classify terrain images into:
 - For each **Land** point, retrieves a high-resolution satellite image using the **Mapbox API**.
 - Saves images to disk for classification.
 
-> 🔑 **To use Mapbox:**  
-> Create a free access token here:
 > > 🔑 **To use Mapbox:**  
 > Create a free access token here:  
 > [mapbox](https://account.mapbox.com/auth/signin/?route-to=https%3A%2F%2Fconsole.mapbox.com%2Faccount%2Faccess-tokens%2F%3Fauth%3D1)
-
-
 ---
 
 ### 4. `TerrainConductivityTable.py`
