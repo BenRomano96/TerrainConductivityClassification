@@ -37,12 +37,7 @@ format_dict = {'image': path_to_image_html}
 
 # Show HTML table and save it
 display(HTML(final_df.to_html(escape=False, formatters=format_dict, index=False)))
-final_df.to_html('test_html2.html', escape=False, formatters=format_dict, index=False)
+final_df.to_html('PathConductivity.html', escape=False, formatters=format_dict, index=False)
 
 # Save final merged table as CSV
 final_df.to_csv('condactivityPath.csv', index=False)
-
-# Optional: Load and print average conductivity from a specific range
-folder = 'csv/conductivity_path.csv'
-cond_path = pd.read_csv(folder, index_col=0)
-print(cond_path['Conductivity'].iloc[30:50].mean(), "[mS/m]")
