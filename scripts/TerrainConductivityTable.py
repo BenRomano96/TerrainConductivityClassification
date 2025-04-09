@@ -109,6 +109,6 @@ if '.DS_Store' in images:
 data = conductivityTable(image_dir, folder_name, fig_size, images)
 df = pd.DataFrame(data)
 df = df.round(2)
-df.to_csv('"your_tabel".csv', index=False)
+df.to_csv('ConductivityTable.csv', index=False)
 
 # %%
